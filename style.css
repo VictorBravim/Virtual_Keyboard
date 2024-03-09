@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-image: url(https://4kwallpapers.com/images/wallpapers/blue-background-abstract-background-windows-11-3440x1440-8846.jpg);
+    background-size: cover;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+.virtual-keyboard .row {
+    text-align: center;
+    margin: 0 0 15px;
+}
+
+.virtual-keyboard .row.spacebar input {
+    padding: 20px 250px;
+}
+
+.virtual-keyboard input[type='button'] {
+    padding: 18px 33px;
+    border-radius: 10px;
+    border: 2px solid #808080;
+    background: #ffffff;
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    box-shadow: 0px 33px 20px 21px rgba(0, 0, 0, 0.1);
+    transition: 0.5s ease;
+}
+
+.virtual-keyboard input[type='button']:hover {
+    transform: scale(0.9);
+    transition: transform 0.3s ease;
+}
+
+.virtual-keyboard input[type='button'].shift-activated {
+    background: red;
+}
+
+.virtual-keyboard input[type='button'].delete,
+.virtual-keyboard input[type='button'].shift {
+    text-transform: none;
+}
+
+.output {
+    margin: 15px;
+}
+
+.output input {
+    color: white;
+    background: none;
+    border: 0px;
+    line-height: 2.2em;
+    text-align: center;
+    font-size: 3em;
+    width: 100%;
+}
+
+.output input:focus {
+    outline: none;
+    border: 0px;
+}
+
+.output ::-webkit-input-placeholder {
+    color: white;
+    text-align: center;
+    font-size: 1em;
+}
