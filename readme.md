@@ -11,7 +11,7 @@ Um teclado virtual simples construído com HTML, CSS e JavaScript.
 
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/VictorBravim/Virtual_Keyboard
+   git clone https://github.com/VictorBravim/Virtual_Keyboard.git
 
 2. Abra o arquivo index.html em seu navegador ou integre o código em seu projeto.
 
